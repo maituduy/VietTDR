@@ -6,7 +6,7 @@
 
 ## 1. Người dùng & mục tiêu
 
-MAI TU DUY (23032903201), học viên cao học 桂林电子科技大学 (GUET), hướng
+MAI TU DUY, học viên cao học 桂林电子科技大学 (GUET), hướng
 dẫn 邓珍荣. Đề tài: phát hiện và nhận dạng chữ Việt trong cảnh tự nhiên.
 Giao tiếp bằng **tiếng Việt** (có trộn thuật ngữ học thuật tiếng Trung).
 
