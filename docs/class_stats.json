@@ -1,0 +1,142 @@
+{
+ "n_words": 24838,
+ "n_words_with_diacritics": 15229,
+ "n_chars": 91970,
+ "combined_vocab": {
+  "classes_seen": 226,
+  "min": 1,
+  "median": 96,
+  "max": 7086,
+  "classes_with_lt_50": 82,
+  "vocab_size": 228,
+  "classes_never_seen": 2,
+  "missing_examples": [
+   "ẽ",
+   "ỵ"
+  ]
+ },
+ "base": {
+  "classes_seen": 95,
+  "min": 1,
+  "median": 412,
+  "max": 7086,
+  "classes_with_lt_50": 29
+ },
+ "modifier": {
+  "none": 81004,
+  "circumflex": 5529,
+  "breve": 508,
+  "horn": 3185,
+  "stroke": 1744
+ },
+ "tone": {
+  "level": 79550,
+  "acute": 3726,
+  "grave": 3163,
+  "hook": 1618,
+  "tilde": 760,
+  "dot": 3153
+ },
+ "rarest_combined_classes": [
+  {
+   "char": "ẳ",
+   "count": 1
+  },
+  {
+   "char": "~",
+   "count": 1
+  },
+  {
+   "char": "^",
+   "count": 1
+  },
+  {
+   "char": "<",
+   "count": 1
+  },
+  {
+   "char": ">",
+   "count": 1
+  },
+  {
+   "char": "\\",
+   "count": 1
+  },
+  {
+   "char": "}",
+   "count": 1
+  },
+  {
+   "char": "{",
+   "count": 1
+  },
+  {
+   "char": "=",
+   "count": 1
+  },
+  {
+   "char": "ỷ",
+   "count": 2
+  },
+  {
+   "char": "°",
+   "count": 2
+  },
+  {
+   "char": "`",
+   "count": 2
+  },
+  {
+   "char": "$",
+   "count": 3
+  },
+  {
+   "char": "[",
+   "count": 4
+  },
+  {
+   "char": "]",
+   "count": 4
+  },
+  {
+   "char": "ỡ",
+   "count": 5
+  },
+  {
+   "char": "_",
+   "count": 5
+  },
+  {
+   "char": "Ẳ",
+   "count": 6
+  },
+  {
+   "char": "j",
+   "count": 6
+  },
+  {
+   "char": "Ẵ",
+   "count": 6
+  },
+  {
+   "char": ";",
+   "count": 6
+  },
+  {
+   "char": "ỳ",
+   "count": 7
+  },
+  {
+   "char": "è",
+   "count": 8
+  },
+  {
+   "char": "ẫ",
+   "count": 8
+  },
+  {
+   "char": "?",
+   "count": 9
+  }
+ ]
+}

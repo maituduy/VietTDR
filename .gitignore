@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- Dữ liệu ảnh (41k+ file, tái tạo bằng tools/crop_vintext_words.py) ----
+data/vintext_words/train/
+data/vintext_words/val/
+data/vintext_words/test/
+data/synth/
+data/sr_pairs/
+data/bg/
+
+# ---- Archive nặng ----
+*.zip
+*.tar.gz
+*.rar
+
+# ---- Output tạm ----
+runs/
+outputs/
+work_dirs/
+*.tmp
+
+# ---- KHÔNG công khai: bản thảo đơn sáng chế (công bố sớm = mất tính mới) ----
+docs/专利申请草稿.md
+docs/专利申请草稿_SR.md
+
+# ---- Hệ điều hành ----
+Thumbs.db
+.DS_Store

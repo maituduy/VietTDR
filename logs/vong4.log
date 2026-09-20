@@ -1,0 +1,151 @@
+[{"stream_name":"stderr","time":7.3672762800000005,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.36734513,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.367350474,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.367353075,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.967327794,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.967358472,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.967363548,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.967368008,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.162904263,"data":"GPU: Tesla T4\n"}
+,{"stream_name":"stdout","time":43.723953802,"data":"ban code:\n"}
+,{"stream_name":"stdout","time":43.723997172,"data":"   [DU CO] /kaggle/input/datasets/maituduy/viettdr-code-v4\n"}
+,{"stream_name":"stdout","time":176.592620988,"data":"copy data: 119s\n"}
+,{"stream_name":"stdout","time":188.376350272,"data":"rec ckpt : /kaggle/input/datasets/maituduy/viettdr-ckpt/rec_full_slim.pth\n"}
+,{"stream_name":"stdout","time":188.376386142,"data":"s2 cu    : /kaggle/input/datasets/maituduy/viettdr-ckpt/sr_s2_best.pth\n"}
+,{"stream_name":"stdout","time":190.103484707,"data":"[ok] roundtrip on 228 VinText chars; 95 bases x 5 modifiers x 6 tones\r\n"}
+,{"stream_name":"stdout","time":190.103513707,"data":"[ok] examples\r\n"}
+,{"stream_name":"stdout","time":190.103519388,"data":"[ok] charset encode/decode\r\n"}
+,{"stream_name":"stdout","time":190.103524285,"data":"[ok] 229/2850 triples valid (8.0% of the product space)\r\n"}
+,{"stream_name":"stdout","time":190.103529427,"data":"ALL TESTS PASSED\r\n"}
+,{"stream_name":"stdout","time":194.361399421,"data":"fonts 21 | corpus 33386 | backgrounds 1200 | tone-balance True\r\n"}
+,{"stream_name":"stdout","time":231.588219633,"data":"  20000/60000\r\n"}
+,{"stream_name":"stdout","time":266.667376422,"data":"  40000/60000\r\n"}
+,{"stream_name":"stdout","time":301.02649814,"data":"  60000/60000\r\n"}
+,{"stream_name":"stdout","time":301.026528637,"data":"done: 60000 pairs (46026 with diacritics = 77%) -\u003e data/sr_mix\r\n"}
+,{"stream_name":"stdout","time":338.551790938,"data":"real pairs: 12548 (tu crop \u003e= 28px cua train) -\u003e data/sr_mix (append)\r\n"}
+,{"stream_name":"stdout","time":339.164743633,"data":"tong 72548 cap | synth 60000 | that 12548 | 0.09h\n"}
+,{"stream_name":"stdout","time":339.178790287,"data":"################## sr_m1 (0.09h) ##################\n"}
+,{"stream_name":"stdout","time":341.332430007,"data":"[data] train 71098 | val 1450\r\n"}
+,{"stream_name":"stdout","time":341.687949703,"data":"[model] VietSR 0.78M params | device cuda\r\n"}
+,{"stream_name":"stdout","time":392.651312589,"data":"ep   0 | loss 0.2486 (pix 0.0563 mark 0.0961 rec 0.000) | PSNR 22.26 D-PSNR 18.22 | 46s\r\n"}
+,{"stream_name":"stdout","time":392.704800704,"data":"  ** new best D-PSNR 18.22\r\n"}
+,{"stream_name":"stdout","time":440.391297089,"data":"ep   1 | loss 0.2392 (pix 0.0545 mark 0.0924 rec 0.000) | PSNR 22.46 D-PSNR 18.46 | 48s\r\n"}
+,{"stream_name":"stdout","time":440.442279445,"data":"  ** new best D-PSNR 18.46\r\n"}
+,{"stream_name":"stdout","time":491.967515477,"data":"ep   2 | loss 0.2262 (pix 0.0516 mark 0.0873 rec 0.000) | PSNR 22.89 D-PSNR 18.84 | 52s\r\n"}
+,{"stream_name":"stdout","time":492.019253794,"data":"  ** new best D-PSNR 18.84\r\n"}
+,{"stream_name":"stdout","time":541.7439992,"data":"ep   3 | loss 0.2122 (pix 0.0488 mark 0.0817 rec 0.000) | PSNR 23.27 D-PSNR 19.24 | 50s\r\n"}
+,{"stream_name":"stdout","time":541.846281216,"data":"  ** new best D-PSNR 19.24\r\n"}
+,{"stream_name":"stdout","time":592.274119968,"data":"ep   4 | loss 0.2005 (pix 0.0465 mark 0.0770 rec 0.000) | PSNR 23.58 D-PSNR 19.54 | 50s\r\n"}
+,{"stream_name":"stdout","time":592.324362377,"data":"  ** new best D-PSNR 19.54\r\n"}
+,{"stream_name":"stdout","time":642.655453075,"data":"ep   5 | loss 0.1929 (pix 0.0449 mark 0.0740 rec 0.000) | PSNR 23.74 D-PSNR 19.66 | 50s\r\n"}
+,{"stream_name":"stdout","time":642.702699168,"data":"  ** new best D-PSNR 19.66\r\n"}
+,{"stream_name":"stdout","time":692.855569175,"data":"ep   6 | loss 0.1888 (pix 0.0440 mark 0.0724 rec 0.000) | PSNR 23.87 D-PSNR 19.80 | 50s\r\n"}
+,{"stream_name":"stdout","time":692.903230594,"data":"  ** new best D-PSNR 19.80\r\n"}
+,{"stream_name":"stdout","time":743.18343602,"data":"ep   7 | loss 0.1855 (pix 0.0433 mark 0.0711 rec 0.000) | PSNR 23.92 D-PSNR 19.88 | 50s\r\n"}
+,{"stream_name":"stdout","time":743.238345357,"data":"  ** new best D-PSNR 19.88\r\n"}
+,{"stream_name":"stdout","time":793.752386386,"data":"ep   8 | loss 0.1833 (pix 0.0428 mark 0.0703 rec 0.000) | PSNR 24.01 D-PSNR 19.94 | 50s\r\n"}
+,{"stream_name":"stdout","time":793.809647674,"data":"  ** new best D-PSNR 19.94\r\n"}
+,{"stream_name":"stdout","time":844.005450794,"data":"ep   9 | loss 0.1819 (pix 0.0425 mark 0.0697 rec 0.000) | PSNR 24.03 D-PSNR 19.98 | 50s\r\n"}
+,{"stream_name":"stdout","time":844.056278439,"data":"  ** new best D-PSNR 19.98\r\n"}
+,{"stream_name":"stdout","time":894.100622699,"data":"ep  10 | loss 0.1811 (pix 0.0424 mark 0.0694 rec 0.000) | PSNR 24.02 D-PSNR 19.99 | 50s\r\n"}
+,{"stream_name":"stdout","time":894.149145415,"data":"  ** new best D-PSNR 19.99\r\n"}
+,{"stream_name":"stdout","time":944.49753241,"data":"ep  11 | loss 0.1807 (pix 0.0423 mark 0.0692 rec 0.000) | PSNR 24.03 D-PSNR 20.00 | 50s\r\n"}
+,{"stream_name":"stdout","time":944.597288222,"data":"  ** new best D-PSNR 20.00\r\n"}
+,{"stream_name":"stdout","time":944.597317897,"data":"done. best D-PSNR = 20.00\r\n"}
+,{"stream_name":"stdout","time":945.920717626,"data":"################## sr_m2 (0.26h) ##################\n"}
+,{"stream_name":"stdout","time":948.376895216,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":948.376931856,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":948.681234668,"data":"[rec] frozen recognizer from /kaggle/input/datasets/maituduy/viettdr-ckpt/rec_full_slim.pth (val 0.8133)\r\n"}
+,{"stream_name":"stdout","time":948.98691668,"data":"[data] train 71098 | val 1450\r\n"}
+,{"stream_name":"stdout","time":948.986950529,"data":"[model] VietSR 0.78M params | device cuda\r\n"}
+,{"stream_name":"stdout","time":1100.759798063,"data":"ep   0 | loss 0.4305 (pix 0.0570 mark 0.0977 rec 1.782) | PSNR 22.22 D-PSNR 18.11 | 151s\r\n"}
+,{"stream_name":"stdout","time":1100.809070062,"data":"  ** new best D-PSNR 18.11\r\n"}
+,{"stream_name":"stdout","time":1248.894701914,"data":"ep   1 | loss 0.4235 (pix 0.0556 mark 0.0951 rec 1.776) | PSNR 22.27 D-PSNR 18.19 | 148s\r\n"}
+,{"stream_name":"stdout","time":1248.942813066,"data":"  ** new best D-PSNR 18.19\r\n"}
+,{"stream_name":"stdout","time":1396.793810173,"data":"ep   2 | loss 0.4180 (pix 0.0546 mark 0.0932 rec 1.770) | PSNR 22.46 D-PSNR 18.30 | 148s\r\n"}
+,{"stream_name":"stdout","time":1396.844903685,"data":"  ** new best D-PSNR 18.30\r\n"}
+,{"stream_name":"stdout","time":1544.505217262,"data":"ep   3 | loss 0.4096 (pix 0.0526 mark 0.0902 rec 1.765) | PSNR 22.62 D-PSNR 18.51 | 148s\r\n"}
+,{"stream_name":"stdout","time":1544.552933023,"data":"  ** new best D-PSNR 18.51\r\n"}
+,{"stream_name":"stdout","time":1692.465765227,"data":"ep   4 | loss 0.4009 (pix 0.0508 mark 0.0869 rec 1.763) | PSNR 22.81 D-PSNR 18.78 | 148s\r\n"}
+,{"stream_name":"stdout","time":1692.517284066,"data":"  ** new best D-PSNR 18.78\r\n"}
+,{"stream_name":"stdout","time":1840.222902006,"data":"ep   5 | loss 0.3923 (pix 0.0492 mark 0.0834 rec 1.763) | PSNR 23.20 D-PSNR 19.07 | 148s\r\n"}
+,{"stream_name":"stdout","time":1840.269218712,"data":"  ** new best D-PSNR 19.07\r\n"}
+,{"stream_name":"stdout","time":1987.931311574,"data":"ep   6 | loss 0.3843 (pix 0.0477 mark 0.0802 rec 1.762) | PSNR 23.27 D-PSNR 19.24 | 148s\r\n"}
+,{"stream_name":"stdout","time":1987.978773372,"data":"  ** new best D-PSNR 19.24\r\n"}
+,{"stream_name":"stdout","time":2136.248317233,"data":"ep   7 | loss 0.3780 (pix 0.0465 mark 0.0777 rec 1.761) | PSNR 23.50 D-PSNR 19.40 | 148s\r\n"}
+,{"stream_name":"stdout","time":2136.294281336,"data":"  ** new best D-PSNR 19.40\r\n"}
+,{"stream_name":"stdout","time":2284.136452424,"data":"ep   8 | loss 0.3738 (pix 0.0457 mark 0.0762 rec 1.758) | PSNR 23.55 D-PSNR 19.49 | 148s\r\n"}
+,{"stream_name":"stdout","time":2284.181684714,"data":"  ** new best D-PSNR 19.49\r\n"}
+,{"stream_name":"stdout","time":2432.452741357,"data":"ep   9 | loss 0.3712 (pix 0.0452 mark 0.0752 rec 1.756) | PSNR 23.60 D-PSNR 19.55 | 148s\r\n"}
+,{"stream_name":"stdout","time":2432.504451706,"data":"  ** new best D-PSNR 19.55\r\n"}
+,{"stream_name":"stdout","time":2580.251319555,"data":"ep  10 | loss 0.3698 (pix 0.0449 mark 0.0747 rec 1.754) | PSNR 23.63 D-PSNR 19.57 | 148s\r\n"}
+,{"stream_name":"stdout","time":2580.351299281,"data":"  ** new best D-PSNR 19.57\r\n"}
+,{"stream_name":"stdout","time":2728.392718604,"data":"ep  11 | loss 0.3692 (pix 0.0449 mark 0.0745 rec 1.753) | PSNR 23.65 D-PSNR 19.58 | 148s\r\n"}
+,{"stream_name":"stdout","time":2728.437894341,"data":"  ** new best D-PSNR 19.58\r\n"}
+,{"stream_name":"stdout","time":2728.437921808,"data":"done. best D-PSNR = 19.58\r\n"}
+,{"stream_name":"stdout","time":2729.497230095,"data":"xong: ['sr_m1', 'sr_m2']\n"}
+,{"stream_name":"stdout","time":2729.520808155,"data":"============== sr_m1 synth ==============\n"}
+,{"stream_name":"stdout","time":2731.822170132,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2731.82220767,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2737.954599439,"data":"synth eval (3000 pairs):\r\n"}
+,{"stream_name":"stdout","time":2737.954648819,"data":"              PSNR    SSIM   D-PSNR\r\n"}
+,{"stream_name":"stdout","time":2737.954661221,"data":"  bicubic    22.15  0.7234    17.85\r\n"}
+,{"stream_name":"stdout","time":2737.954665834,"data":"  sr         24.21  0.8163    20.27\r\n"}
+,{"stream_name":"stdout","time":2737.954670281,"data":"\r\n"}
+,{"stream_name":"stdout","time":2737.954674499,"data":"recognizer word acc:\r\n"}
+,{"stream_name":"stdout","time":2749.079860296,"data":"  hr       word 0.9317 | co dau 0.9352 | hoi/nga 0.9525\r\n"}
+,{"stream_name":"stdout","time":2760.104220397,"data":"  bicubic  word 0.7970 | co dau 0.7984 | hoi/nga 0.7961\r\n"}
+,{"stream_name":"stdout","time":2769.906012323,"data":"  sr       word 0.7533 | co dau 0.7547 | hoi/nga 0.7575\r\n"}
+,{"stream_name":"stdout","time":2770.571575627,"data":"============== sr_m1 real \u003c=16px GIU TY LE ==============\n"}
+,{"stream_name":"stdout","time":2772.872815142,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2772.872851031,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2773.833773086,"data":"real eval: 2177/9789 crops with height \u003c= 16px\r\n"}
+,{"stream_name":"stdout","time":2788.366889433,"data":"  goc (bicubic)  word 0.7184 | 1-NED 0.8630 | co dau 0.7524 | hoi/nga 0.6494 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2796.9225897,"data":"  qua SR         word 0.5912 | 1-NED 0.7811 | co dau 0.5787 | hoi/nga 0.4545 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2797.565549855,"data":"============== sr_m1 real \u003c=16px bop 16x64 (doi chieu) ==============\n"}
+,{"stream_name":"stdout","time":2799.813034697,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2799.813070184,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2800.724944161,"data":"real eval: 2177/9789 crops with height \u003c= 16px\r\n"}
+,{"stream_name":"stdout","time":2815.040408416,"data":"  goc (bicubic)  word 0.7184 | 1-NED 0.8630 | co dau 0.7524 | hoi/nga 0.6494 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2822.947926444,"data":"  qua SR         word 0.5884 | 1-NED 0.7737 | co dau 0.6002 | hoi/nga 0.4286 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2823.587865085,"data":"============== sr_m2 synth ==============\n"}
+,{"stream_name":"stdout","time":2825.837733858,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2825.837796512,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2831.870885472,"data":"synth eval (3000 pairs):\r\n"}
+,{"stream_name":"stdout","time":2831.870916783,"data":"              PSNR    SSIM   D-PSNR\r\n"}
+,{"stream_name":"stdout","time":2831.870922723,"data":"  bicubic    22.15  0.7234    17.85\r\n"}
+,{"stream_name":"stdout","time":2831.870927399,"data":"  sr         23.82  0.7959    19.80\r\n"}
+,{"stream_name":"stdout","time":2831.87093231,"data":"\r\n"}
+,{"stream_name":"stdout","time":2831.870936815,"data":"recognizer word acc:\r\n"}
+,{"stream_name":"stdout","time":2843.16252122,"data":"  hr       word 0.9317 | co dau 0.9352 | hoi/nga 0.9525\r\n"}
+,{"stream_name":"stdout","time":2854.17713568,"data":"  bicubic  word 0.7970 | co dau 0.7984 | hoi/nga 0.7961\r\n"}
+,{"stream_name":"stdout","time":2864.705016078,"data":"  sr       word 0.8070 | co dau 0.8085 | hoi/nga 0.8155\r\n"}
+,{"stream_name":"stdout","time":2865.342038714,"data":"============== sr_m2 real \u003c=16px GIU TY LE ==============\n"}
+,{"stream_name":"stdout","time":2867.59147889,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2867.591519669,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2868.502646667,"data":"real eval: 2177/9789 crops with height \u003c= 16px\r\n"}
+,{"stream_name":"stdout","time":2882.881198047,"data":"  goc (bicubic)  word 0.7184 | 1-NED 0.8630 | co dau 0.7524 | hoi/nga 0.6494 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2891.59858933,"data":"  qua SR         word 0.6514 | 1-NED 0.8261 | co dau 0.6578 | hoi/nga 0.5390 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2892.204528106,"data":"============== sr_m2 real \u003c=16px bop 16x64 (doi chieu) ==============\n"}
+,{"stream_name":"stdout","time":2894.401302984,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2894.401387708,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2895.316024564,"data":"real eval: 2177/9789 crops with height \u003c= 16px\r\n"}
+,{"stream_name":"stdout","time":2909.676487039,"data":"  goc (bicubic)  word 0.7184 | 1-NED 0.8630 | co dau 0.7524 | hoi/nga 0.6494 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2918.883712916,"data":"  qua SR         word 0.6647 | 1-NED 0.8335 | co dau 0.6896 | hoi/nga 0.5909 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2919.488930362,"data":"============== sr_s2 (vong 3) real GIU TY LE full test ==============\n"}
+,{"stream_name":"stdout","time":2921.841268522,"data":"/tmp/vt/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":2921.841307703,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":2922.803830949,"data":"real eval: 2177/9789 crops with height \u003c= 16px\r\n"}
+,{"stream_name":"stdout","time":2937.380068776,"data":"  goc (bicubic)  word 0.7184 | 1-NED 0.8630 | co dau 0.7524 | hoi/nga 0.6494 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2946.725317685,"data":"  qua SR         word 0.6302 | 1-NED 0.8100 | co dau 0.6277 | hoi/nga 0.5065 (n=154)\r\n"}
+,{"stream_name":"stdout","time":2947.334838613,"data":"\n"}
+,{"stream_name":"stdout","time":2947.334868992,"data":"output 5 file | tong 0.81h\n"}
+,{"stream_name":"stderr","time":2950.387882415,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2950.38790958,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2950.559797688,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2950.559824206,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2951.229993011,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2951.558540497,"data":"[NbConvertApp] Writing 21548 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2953.897273834,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2954.730479162,"data":"[NbConvertApp] Writing 317150 bytes to __results__.html\n"}
+]

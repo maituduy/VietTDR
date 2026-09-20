@@ -1,0 +1,252 @@
+[{"stream_name":"stderr","time":8.021137699,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.021214452,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.021218884,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.021221562,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.634337144,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.634368248,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.634371941,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.634374563,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.084515668,"data":"GPU   : Tesla T4\n"}
+,{"stream_name":"stdout","time":15.084571642,"data":"CPU   : 4 cores\n"}
+,{"stream_name":"stdout","time":15.084581052,"data":"moc bat dau phien da dat, ngan sach 10.0h\n"}
+,{"stream_name":"stdout","time":99.847586871,"data":"ban code tim thay:\n"}
+,{"stream_name":"stdout","time":99.847622678,"data":"   [DU CO] /kaggle/input/datasets/maituduy/viettdr-code-v4\n"}
+,{"stream_name":"stdout","time":377.607052616,"data":"copy du lieu -\u003e o local: 267s\n"}
+,{"stream_name":"stdout","time":377.607091631,"data":"  [OK]    --synth-aug\n"}
+,{"stream_name":"stdout","time":377.607097821,"data":"  [OK]    --init-from\n"}
+,{"stream_name":"stdout","time":377.60710335,"data":"  [OK]    --no-decompose\n"}
+,{"stream_name":"stdout","time":377.607108106,"data":"  [OK]    confusable\n"}
+,{"stream_name":"stdout","time":377.607112323,"data":"  [OK]    stacked\n"}
+,{"stream_name":"stdout","time":377.607116692,"data":"\n"}
+,{"stream_name":"stdout","time":377.607122338,"data":"code: /kaggle/input/datasets/maituduy/viettdr-code-v4\n"}
+,{"stream_name":"stdout","time":389.536776049,"data":"checkpoint tim thay:\n"}
+,{"stream_name":"stdout","time":389.536821398,"data":"  (chua Add Input Notebook Output cua vong 1 -\u003e bo qua cell nay)\n"}
+,{"stream_name":"stdout","time":389.737681158,"data":"nen that: /kaggle/input/datasets/maituduy/vintext-train-images/train_images\n"}
+,{"stream_name":"stdout","time":392.133191909,"data":"height ref: 3000 crops | p10=12 p50=27 p90=95\r\n"}
+,{"stream_name":"stdout","time":392.133225891,"data":"fonts 21 | corpus 33386 words | backgrounds 1200 | tone-balance True (ratio 0.5)\r\n"}
+,{"stream_name":"stdout","time":392.133232662,"data":"  tone buckets: level=17205, acute=5824, grave=3422, hook=2210, tilde=1237, dot=3679\r\n"}
+,{"stream_name":"stdout","time":428.967814215,"data":"  50000/500000\r\n"}
+,{"stream_name":"stdout","time":463.592195794,"data":"  100000/500000\r\n"}
+,{"stream_name":"stdout","time":498.431384322,"data":"  150000/500000\r\n"}
+,{"stream_name":"stdout","time":533.398176927,"data":"  200000/500000\r\n"}
+,{"stream_name":"stdout","time":567.691030937,"data":"  250000/500000\r\n"}
+,{"stream_name":"stdout","time":602.56781492,"data":"  300000/500000\r\n"}
+,{"stream_name":"stdout","time":637.314235546,"data":"  350000/500000\r\n"}
+,{"stream_name":"stdout","time":672.305403807,"data":"  400000/500000\r\n"}
+,{"stream_name":"stdout","time":706.977538304,"data":"  450000/500000\r\n"}
+,{"stream_name":"stdout","time":740.910026857,"data":"  500000/500000\r\n"}
+,{"stream_name":"stdout","time":740.955574308,"data":"done: 500000 images -\u003e data/synth (data/synth/synth_gt.jsonl)\r\n"}
+,{"stream_name":"stdout","time":743.544769214,"data":"tong hop: 500000 anh | tap con cho FT: 50000\n"}
+,{"stream_name":"stdout","time":743.54479519,"data":"{0: '85.4%', 1: '3.8%', 2: '3.0%', 3: '2.5%', 4: '2.2%', 5: '3.1%'}\n"}
+,{"stream_name":"stdout","time":743.564825913,"data":"###################### full  (da chay 0.20h) ######################\n"}
+,{"stream_name":"stdout","time":753.398995455,"data":"[dataset] 524837 samples (1 skipped: OOV or \u003e max_len) | aug ['full', 'light']\r\n"}
+,{"stream_name":"stdout","time":753.44982719,"data":"[dataset] 6920 samples (2 skipped: OOV or \u003e max_len) | aug ['none']\r\n"}
+,{"stream_name":"stdout","time":753.551331067,"data":"/kaggle/working/run/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":753.551372174,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":753.906924471,"data":"[model] 19.70M params | device=cuda | train=524837 val=6920\r\n"}
+,{"stream_name":"stdout","time":757.574419452,"data":"/kaggle/working/run/train.py:179: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate\r\n"}
+,{"stream_name":"stdout","time":757.574460902,"data":"  sched.step()\r\n"}
+,{"stream_name":"stdout","time":1816.025330336,"data":"ep   0 | loss 4.0056 (b 2.663 m 0.598 t 0.698 c 0.234) | word nan 1-NED nan heavy nan | lr 3.50e-04 | 1062s\r\n"}
+,{"stream_name":"stdout","time":2897.462550915,"data":"ep   1 | loss 2.7298 (b 1.608 m 0.504 t 0.587 c 0.157) | word nan 1-NED nan heavy nan | lr 7.00e-04 | 1081s\r\n"}
+,{"stream_name":"stdout","time":3975.517649222,"data":"ep   2 | loss 2.0277 (b 1.058 m 0.438 t 0.504 c 0.139) | word nan 1-NED nan heavy nan | lr 6.90e-04 | 1078s\r\n"}
+,{"stream_name":"stdout","time":5048.568233529,"data":"ep   3 | loss 1.8883 (b 0.959 m 0.422 t 0.480 c 0.136) | word nan 1-NED nan heavy nan | lr 6.60e-04 | 1073s\r\n"}
+,{"stream_name":"stdout","time":6124.328623355,"data":"ep   4 | loss 1.8322 (b 0.920 m 0.416 t 0.470 c 0.135) | word 0.6480 1-NED 0.8179 heavy 0.6486 | lr 6.12e-04 | 1075s\r\n"}
+,{"stream_name":"stdout","time":6125.29207383,"data":"  ** new best 0.6480\r\n"}
+,{"stream_name":"stdout","time":7196.79394498,"data":"ep   5 | loss 1.7962 (b 0.895 m 0.412 t 0.463 c 0.134) | word nan 1-NED nan heavy nan | lr 5.49e-04 | 1072s\r\n"}
+,{"stream_name":"stdout","time":8272.608269757,"data":"ep   6 | loss 1.7687 (b 0.877 m 0.409 t 0.457 c 0.134) | word nan 1-NED nan heavy nan | lr 4.74e-04 | 1075s\r\n"}
+,{"stream_name":"stdout","time":9350.380354373,"data":"ep   7 | loss 1.7465 (b 0.861 m 0.406 t 0.452 c 0.133) | word nan 1-NED nan heavy nan | lr 3.92e-04 | 1077s\r\n"}
+,{"stream_name":"stdout","time":10426.246829278,"data":"ep   8 | loss 1.7273 (b 0.848 m 0.404 t 0.449 c 0.133) | word nan 1-NED nan heavy nan | lr 3.08e-04 | 1075s\r\n"}
+,{"stream_name":"stdout","time":11505.925026024,"data":"ep   9 | loss 1.7109 (b 0.837 m 0.402 t 0.445 c 0.132) | word 0.7601 1-NED 0.8760 heavy 0.7770 | lr 2.26e-04 | 1079s\r\n"}
+,{"stream_name":"stdout","time":11506.885003922,"data":"  ** new best 0.7601\r\n"}
+,{"stream_name":"stdout","time":12581.698044551,"data":"ep  10 | loss 1.6963 (b 0.827 m 0.400 t 0.442 c 0.132) | word nan 1-NED nan heavy nan | lr 1.51e-04 | 1075s\r\n"}
+,{"stream_name":"stdout","time":13658.072368558,"data":"ep  11 | loss 1.6844 (b 0.819 m 0.399 t 0.440 c 0.132) | word nan 1-NED nan heavy nan | lr 8.80e-05 | 1076s\r\n"}
+,{"stream_name":"stdout","time":14736.249090487,"data":"ep  12 | loss 1.6753 (b 0.813 m 0.398 t 0.438 c 0.132) | word nan 1-NED nan heavy nan | lr 4.01e-05 | 1078s\r\n"}
+,{"stream_name":"stdout","time":15814.539109932,"data":"ep  13 | loss 1.6691 (b 0.809 m 0.397 t 0.436 c 0.131) | word nan 1-NED nan heavy nan | lr 1.02e-05 | 1078s\r\n"}
+,{"stream_name":"stdout","time":16896.192869682,"data":"ep  14 | loss 1.6663 (b 0.808 m 0.397 t 0.436 c 0.131) | word 0.7861 1-NED 0.8911 heavy 0.7838 | lr 0.00e+00 | 1081s\r\n"}
+,{"stream_name":"stdout","time":16897.151201946,"data":"  ** new best 0.7861\r\n"}
+,{"stream_name":"stdout","time":16897.151288264,"data":"done. best val word acc = 0.7861\r\n"}
+,{"stream_name":"stdout","time":16902.126196595,"data":"[dataset] 74837 samples (1 skipped: OOV or \u003e max_len) | aug ['full', 'light']\r\n"}
+,{"stream_name":"stdout","time":16902.177413692,"data":"[dataset] 6920 samples (2 skipped: OOV or \u003e max_len) | aug ['none']\r\n"}
+,{"stream_name":"stdout","time":16902.228033062,"data":"/kaggle/working/run/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":16902.228085954,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":16902.532694716,"data":"[model] 19.70M params | device=cuda | train=74837 val=6920\r\n"}
+,{"stream_name":"stdout","time":16902.787845263,"data":"[init] weights from runs/pre_full/best.pth (pretrained 14 epochs, val 0.7861); optimizer reset\r\n"}
+,{"stream_name":"stdout","time":17057.594176868,"data":"ep   0 | loss 1.6905 (b 0.826 m 0.399 t 0.440 c 0.131) | word nan 1-NED nan heavy nan | lr 1.00e-04 | 155s\r\n"}
+,{"stream_name":"stdout","time":17209.042990603,"data":"ep   1 | loss 1.6947 (b 0.829 m 0.399 t 0.441 c 0.131) | word nan 1-NED nan heavy nan | lr 2.00e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":17365.053355115,"data":"ep   2 | loss 1.6948 (b 0.829 m 0.399 t 0.441 c 0.131) | word 0.7908 1-NED 0.8945 heavy 0.8041 | lr 1.99e-04 | 155s\r\n"}
+,{"stream_name":"stdout","time":17365.916136795,"data":"  ** new best 0.7908\r\n"}
+,{"stream_name":"stdout","time":17518.073311353,"data":"ep   3 | loss 1.6882 (b 0.824 m 0.398 t 0.439 c 0.131) | word nan 1-NED nan heavy nan | lr 1.97e-04 | 152s\r\n"}
+,{"stream_name":"stdout","time":17670.350550086,"data":"ep   4 | loss 1.6832 (b 0.820 m 0.398 t 0.438 c 0.131) | word nan 1-NED nan heavy nan | lr 1.94e-04 | 152s\r\n"}
+,{"stream_name":"stdout","time":17826.047429329,"data":"ep   5 | loss 1.6791 (b 0.818 m 0.398 t 0.437 c 0.131) | word 0.7942 1-NED 0.8937 heavy 0.7905 | lr 1.90e-04 | 155s\r\n"}
+,{"stream_name":"stdout","time":17826.958103237,"data":"  ** new best 0.7942\r\n"}
+,{"stream_name":"stdout","time":17979.9030507,"data":"ep   6 | loss 1.6757 (b 0.816 m 0.397 t 0.436 c 0.131) | word nan 1-NED nan heavy nan | lr 1.85e-04 | 153s\r\n"}
+,{"stream_name":"stdout","time":18132.820701935,"data":"ep   7 | loss 1.6725 (b 0.814 m 0.397 t 0.436 c 0.131) | word nan 1-NED nan heavy nan | lr 1.78e-04 | 152s\r\n"}
+,{"stream_name":"stdout","time":18288.6572918,"data":"ep   8 | loss 1.6671 (b 0.810 m 0.396 t 0.434 c 0.131) | word 0.7936 1-NED 0.8930 heavy 0.8041 | lr 1.71e-04 | 155s\r\n"}
+,{"stream_name":"stdout","time":18441.854385982,"data":"ep   9 | loss 1.6643 (b 0.808 m 0.396 t 0.434 c 0.131) | word nan 1-NED nan heavy nan | lr 1.62e-04 | 153s\r\n"}
+,{"stream_name":"stdout","time":18595.139010208,"data":"ep  10 | loss 1.6626 (b 0.807 m 0.396 t 0.433 c 0.131) | word nan 1-NED nan heavy nan | lr 1.53e-04 | 153s\r\n"}
+,{"stream_name":"stdout","time":18751.654901255,"data":"ep  11 | loss 1.6597 (b 0.805 m 0.395 t 0.433 c 0.131) | word 0.8000 1-NED 0.8963 heavy 0.7770 | lr 1.43e-04 | 156s\r\n"}
+,{"stream_name":"stdout","time":18752.664940044,"data":"  ** new best 0.8000\r\n"}
+,{"stream_name":"stdout","time":18906.358355066,"data":"ep  12 | loss 1.6560 (b 0.803 m 0.395 t 0.432 c 0.131) | word nan 1-NED nan heavy nan | lr 1.33e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":19060.790056087,"data":"ep  13 | loss 1.6540 (b 0.802 m 0.395 t 0.431 c 0.131) | word nan 1-NED nan heavy nan | lr 1.22e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":19218.979519834,"data":"ep  14 | loss 1.6528 (b 0.801 m 0.395 t 0.431 c 0.131) | word 0.8000 1-NED 0.9000 heavy 0.7568 | lr 1.11e-04 | 158s\r\n"}
+,{"stream_name":"stdout","time":19220.046039823,"data":"  ** new best 0.8000\r\n"}
+,{"stream_name":"stdout","time":19373.922884521,"data":"ep  15 | loss 1.6501 (b 0.799 m 0.394 t 0.430 c 0.131) | word nan 1-NED nan heavy nan | lr 1.00e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":19528.325103336,"data":"ep  16 | loss 1.6479 (b 0.798 m 0.394 t 0.430 c 0.131) | word nan 1-NED nan heavy nan | lr 8.88e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":19685.5388434,"data":"ep  17 | loss 1.6461 (b 0.797 m 0.394 t 0.429 c 0.131) | word 0.8006 1-NED 0.8976 heavy 0.7973 | lr 7.77e-05 | 157s\r\n"}
+,{"stream_name":"stdout","time":19686.551133508,"data":"  ** new best 0.8006\r\n"}
+,{"stream_name":"stdout","time":19840.348490888,"data":"ep  18 | loss 1.6454 (b 0.796 m 0.394 t 0.429 c 0.131) | word nan 1-NED nan heavy nan | lr 6.70e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":19994.952729627,"data":"ep  19 | loss 1.6432 (b 0.794 m 0.394 t 0.429 c 0.131) | word nan 1-NED nan heavy nan | lr 5.66e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":20152.707858431,"data":"ep  20 | loss 1.6423 (b 0.794 m 0.394 t 0.428 c 0.131) | word 0.8064 1-NED 0.9012 heavy 0.7973 | lr 4.68e-05 | 157s\r\n"}
+,{"stream_name":"stdout","time":20153.72204829,"data":"  ** new best 0.8064\r\n"}
+,{"stream_name":"stdout","time":20307.604405021,"data":"ep  21 | loss 1.6406 (b 0.793 m 0.393 t 0.428 c 0.131) | word nan 1-NED nan heavy nan | lr 3.77e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":20462.070068983,"data":"ep  22 | loss 1.6393 (b 0.792 m 0.394 t 0.427 c 0.131) | word nan 1-NED nan heavy nan | lr 2.93e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":20620.04515021,"data":"ep  23 | loss 1.6391 (b 0.792 m 0.393 t 0.427 c 0.131) | word 0.8087 1-NED 0.9006 heavy 0.8108 | lr 2.18e-05 | 157s\r\n"}
+,{"stream_name":"stdout","time":20620.952805776,"data":"  ** new best 0.8087\r\n"}
+,{"stream_name":"stdout","time":20775.171012103,"data":"ep  24 | loss 1.6390 (b 0.792 m 0.393 t 0.428 c 0.131) | word nan 1-NED nan heavy nan | lr 1.53e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":20928.704734317,"data":"ep  25 | loss 1.6377 (b 0.791 m 0.393 t 0.427 c 0.131) | word nan 1-NED nan heavy nan | lr 9.90e-06 | 153s\r\n"}
+,{"stream_name":"stdout","time":21085.613105455,"data":"ep  26 | loss 1.6377 (b 0.791 m 0.393 t 0.427 c 0.131) | word 0.8104 1-NED 0.9027 heavy 0.8108 | lr 5.61e-06 | 156s\r\n"}
+,{"stream_name":"stdout","time":21086.569306939,"data":"  ** new best 0.8104\r\n"}
+,{"stream_name":"stdout","time":21239.514874548,"data":"ep  27 | loss 1.6375 (b 0.791 m 0.393 t 0.427 c 0.131) | word nan 1-NED nan heavy nan | lr 2.51e-06 | 153s\r\n"}
+,{"stream_name":"stdout","time":21393.521904454,"data":"ep  28 | loss 1.6371 (b 0.791 m 0.393 t 0.427 c 0.131) | word nan 1-NED nan heavy nan | lr 6.29e-07 | 154s\r\n"}
+,{"stream_name":"stdout","time":21550.552149752,"data":"ep  29 | loss 1.6370 (b 0.791 m 0.393 t 0.427 c 0.131) | word 0.8162 1-NED 0.9048 heavy 0.8243 | lr 0.00e+00 | 156s\r\n"}
+,{"stream_name":"stdout","time":21551.567023402,"data":"  ** new best 0.8162\r\n"}
+,{"stream_name":"stdout","time":21551.567052114,"data":"done. best val word acc = 0.8162\r\n"}
+,{"stream_name":"stdout","time":21556.09507459,"data":"/kaggle/working/run/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":21556.095116356,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":21594.390088335,"data":"split=test  n=9789\r\n"}
+,{"stream_name":"stdout","time":21594.390119416,"data":"word acc          : 0.8196\r\n"}
+,{"stream_name":"stdout","time":21594.390125313,"data":"word acc (ci)     : 0.8301\r\n"}
+,{"stream_name":"stdout","time":21594.390130256,"data":"1 - NED           : 0.9104\r\n"}
+,{"stream_name":"stdout","time":21594.390135228,"data":"  co dau bat ky     : 0.8567  (n=6023)\r\n"}
+,{"stream_name":"stdout","time":21594.390140226,"data":"  \u003e=2 ky tu co dau  : 0.8508  (n=771)\r\n"}
+,{"stream_name":"stdout","time":21594.390145943,"data":"  chua hoi/nga      : 0.8184  (n=903)\r\n"}
+,{"stream_name":"stdout","time":21594.390150967,"data":"  co ky tu chong dau: 0.8526  (n=2320)\r\n"}
+,{"stream_name":"stdout","time":21594.390155906,"data":"tone confusion (rows=gt, cols=pred):\r\n"}
+,{"stream_name":"stdout","time":21594.390160823,"data":"         level   acute   grave    hook   tilde     dot\r\n"}
+,{"stream_name":"stdout","time":21594.390165726,"data":"  level  27433      41      38      22       7      28\r\n"}
+,{"stream_name":"stdout","time":21594.390170655,"data":"  acute     35    1297      19      25       3       2\r\n"}
+,{"stream_name":"stdout","time":21594.390175558,"data":"  grave     47      16    1139      30       3       6\r\n"}
+,{"stream_name":"stdout","time":21594.390184836,"data":"   hook     25      18      18     517       4       2\r\n"}
+,{"stream_name":"stdout","time":21594.390190064,"data":"  tilde      7       7      12       3     250       1\r\n"}
+,{"stream_name":"stdout","time":21594.390195113,"data":"    dot     30       6       6       1       3    1128\r\n"}
+,{"stream_name":"stdout","time":21594.43624634,"data":"report -\u003e runs/full/eval_test.json  (9789 errors listed)\r\n"}
+,{"stream_name":"stdout","time":21595.344945304,"data":"###################### flat  (da chay 5.99h) ######################\n"}
+,{"stream_name":"stdout","time":21598.250341178,"data":"[ablation] no decomposition: flat vocabulary of 231 classes\r\n"}
+,{"stream_name":"stdout","time":21600.42273165,"data":"[dataset] 524786 samples (52 skipped: OOV or \u003e max_len) | aug ['full', 'light']\r\n"}
+,{"stream_name":"stdout","time":21600.474294527,"data":"[dataset] 6920 samples (2 skipped: OOV or \u003e max_len) | aug ['none']\r\n"}
+,{"stream_name":"stdout","time":21600.525303525,"data":"/kaggle/working/run/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":21600.525339646,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":21600.778670613,"data":"[model] 19.21M params | device=cuda | train=524786 val=6920\r\n"}
+,{"stream_name":"stdout","time":22658.180256355,"data":"ep   0 | loss 3.1916 (b 3.192 m 2.165 t 1.950 c 4.166) | word nan 1-NED nan heavy nan | lr 3.50e-04 | 1057s\r\n"}
+,{"stream_name":"stdout","time":23721.102406181,"data":"ep   1 | loss 1.9392 (b 1.939 m 2.005 t 1.787 c 3.805) | word nan 1-NED nan heavy nan | lr 7.00e-04 | 1063s\r\n"}
+,{"stream_name":"stdout","time":24783.85094069,"data":"ep   2 | loss 1.2561 (b 1.256 m 1.893 t 1.758 c 3.656) | word nan 1-NED nan heavy nan | lr 6.90e-04 | 1062s\r\n"}
+,{"stream_name":"stdout","time":25843.927046328,"data":"ep   3 | loss 1.1208 (b 1.121 m 1.810 t 1.773 c 3.588) | word nan 1-NED nan heavy nan | lr 6.60e-04 | 1060s\r\n"}
+,{"stream_name":"stdout","time":26909.047343389,"data":"ep   4 | loss 1.0692 (b 1.069 m 1.768 t 1.780 c 3.553) | word 0.6717 1-NED 0.8269 heavy 0.7095 | lr 6.12e-04 | 1065s\r\n"}
+,{"stream_name":"stdout","time":26909.757046151,"data":"  ** new best 0.6717\r\n"}
+,{"stream_name":"stdout","time":27970.575439851,"data":"ep   5 | loss 1.0357 (b 1.036 m 1.735 t 1.788 c 3.528) | word nan 1-NED nan heavy nan | lr 5.49e-04 | 1061s\r\n"}
+,{"stream_name":"stdout","time":29032.541453162,"data":"ep   6 | loss 1.0101 (b 1.010 m 1.716 t 1.788 c 3.508) | word nan 1-NED nan heavy nan | lr 4.74e-04 | 1062s\r\n"}
+,{"stream_name":"stdout","time":30093.164596923,"data":"ep   7 | loss 0.9887 (b 0.989 m 1.704 t 1.792 c 3.501) | word nan 1-NED nan heavy nan | lr 3.92e-04 | 1060s\r\n"}
+,{"stream_name":"stdout","time":31154.549535575,"data":"ep   8 | loss 0.9705 (b 0.971 m 1.703 t 1.789 c 3.497) | word nan 1-NED nan heavy nan | lr 3.08e-04 | 1061s\r\n"}
+,{"stream_name":"stdout","time":32219.188839817,"data":"ep   9 | loss 0.9542 (b 0.954 m 1.698 t 1.787 c 3.490) | word 0.7595 1-NED 0.8715 heavy 0.7973 | lr 2.26e-04 | 1064s\r\n"}
+,{"stream_name":"stdout","time":32220.301408381,"data":"  ** new best 0.7595\r\n"}
+,{"stream_name":"stdout","time":33282.920151405,"data":"ep  10 | loss 0.9403 (b 0.940 m 1.694 t 1.793 c 3.491) | word nan 1-NED nan heavy nan | lr 1.51e-04 | 1063s\r\n"}
+,{"stream_name":"stdout","time":34344.930906759,"data":"ep  11 | loss 0.9284 (b 0.928 m 1.691 t 1.794 c 3.491) | word nan 1-NED nan heavy nan | lr 8.80e-05 | 1062s\r\n"}
+,{"stream_name":"stdout","time":35404.558881396,"data":"ep  12 | loss 0.9193 (b 0.919 m 1.691 t 1.795 c 3.490) | word nan 1-NED nan heavy nan | lr 4.01e-05 | 1059s\r\n"}
+,{"stream_name":"stdout","time":36462.29511987,"data":"ep  13 | loss 0.9134 (b 0.913 m 1.690 t 1.794 c 3.489) | word nan 1-NED nan heavy nan | lr 1.02e-05 | 1057s\r\n"}
+,{"stream_name":"stdout","time":37525.301695931,"data":"ep  14 | loss 0.9105 (b 0.911 m 1.690 t 1.795 c 3.490) | word 0.7925 1-NED 0.8917 heavy 0.8108 | lr 0.00e+00 | 1063s\r\n"}
+,{"stream_name":"stdout","time":37526.253832117,"data":"  ** new best 0.7925\r\n"}
+,{"stream_name":"stdout","time":37526.253873297,"data":"done. best val word acc = 0.7925\r\n"}
+,{"stream_name":"stdout","time":37531.424549043,"data":"[ablation] no decomposition: flat vocabulary of 231 classes\r\n"}
+,{"stream_name":"stdout","time":37531.832002296,"data":"[dataset] 74833 samples (5 skipped: OOV or \u003e max_len) | aug ['full', 'light']\r\n"}
+,{"stream_name":"stdout","time":37531.883924254,"data":"[dataset] 6920 samples (2 skipped: OOV or \u003e max_len) | aug ['none']\r\n"}
+,{"stream_name":"stdout","time":37531.934836776,"data":"/kaggle/working/run/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":37531.934871018,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":37532.291938874,"data":"[model] 19.21M params | device=cuda | train=74833 val=6920\r\n"}
+,{"stream_name":"stdout","time":37532.49567027,"data":"[init] weights from runs/pre_flat/best.pth (pretrained 14 epochs, val 0.7925); optimizer reset\r\n"}
+,{"stream_name":"stdout","time":37686.252325723,"data":"ep   0 | loss 0.9328 (b 0.933 m 1.689 t 1.792 c 3.485) | word nan 1-NED nan heavy nan | lr 1.00e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":37836.687865986,"data":"ep   1 | loss 0.9362 (b 0.936 m 1.689 t 1.792 c 3.485) | word nan 1-NED nan heavy nan | lr 2.00e-04 | 150s\r\n"}
+,{"stream_name":"stdout","time":37990.650782233,"data":"ep   2 | loss 0.9355 (b 0.936 m 1.687 t 1.788 c 3.478) | word 0.7873 1-NED 0.8871 heavy 0.8041 | lr 1.99e-04 | 153s\r\n"}
+,{"stream_name":"stdout","time":37991.464127315,"data":"  ** new best 0.7873\r\n"}
+,{"stream_name":"stdout","time":38142.466977718,"data":"ep   3 | loss 0.9296 (b 0.930 m 1.686 t 1.790 c 3.480) | word nan 1-NED nan heavy nan | lr 1.97e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":38293.658125841,"data":"ep   4 | loss 0.9234 (b 0.923 m 1.686 t 1.791 c 3.480) | word nan 1-NED nan heavy nan | lr 1.94e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":38447.900799835,"data":"ep   5 | loss 0.9197 (b 0.920 m 1.681 t 1.791 c 3.476) | word 0.7994 1-NED 0.8952 heavy 0.8243 | lr 1.90e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":38448.866088241,"data":"  ** new best 0.7994\r\n"}
+,{"stream_name":"stdout","time":38599.861790412,"data":"ep   6 | loss 0.9156 (b 0.916 m 1.683 t 1.787 c 3.473) | word nan 1-NED nan heavy nan | lr 1.85e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":38751.315916131,"data":"ep   7 | loss 0.9130 (b 0.913 m 1.686 t 1.786 c 3.475) | word nan 1-NED nan heavy nan | lr 1.78e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":38905.743305381,"data":"ep   8 | loss 0.9101 (b 0.910 m 1.685 t 1.787 c 3.475) | word 0.7936 1-NED 0.8955 heavy 0.8041 | lr 1.71e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":39057.116371237,"data":"ep   9 | loss 0.9072 (b 0.907 m 1.685 t 1.786 c 3.475) | word nan 1-NED nan heavy nan | lr 1.62e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":39208.839751278,"data":"ep  10 | loss 0.9043 (b 0.904 m 1.685 t 1.786 c 3.474) | word nan 1-NED nan heavy nan | lr 1.53e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":39363.656323019,"data":"ep  11 | loss 0.9023 (b 0.902 m 1.681 t 1.790 c 3.475) | word 0.7936 1-NED 0.8938 heavy 0.7973 | lr 1.43e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":39515.593684854,"data":"ep  12 | loss 0.9005 (b 0.900 m 1.682 t 1.790 c 3.476) | word nan 1-NED nan heavy nan | lr 1.33e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":39667.499093325,"data":"ep  13 | loss 0.8978 (b 0.898 m 1.684 t 1.787 c 3.475) | word nan 1-NED nan heavy nan | lr 1.22e-04 | 151s\r\n"}
+,{"stream_name":"stdout","time":39821.875371687,"data":"ep  14 | loss 0.8959 (b 0.896 m 1.684 t 1.787 c 3.474) | word 0.8116 1-NED 0.9044 heavy 0.8243 | lr 1.11e-04 | 154s\r\n"}
+,{"stream_name":"stdout","time":39822.844126678,"data":"  ** new best 0.8116\r\n"}
+,{"stream_name":"stdout","time":39974.681677846,"data":"ep  15 | loss 0.8943 (b 0.894 m 1.684 t 1.787 c 3.475) | word nan 1-NED nan heavy nan | lr 1.00e-04 | 152s\r\n"}
+,{"stream_name":"stdout","time":40126.497511465,"data":"ep  16 | loss 0.8928 (b 0.893 m 1.685 t 1.787 c 3.475) | word nan 1-NED nan heavy nan | lr 8.88e-05 | 151s\r\n"}
+,{"stream_name":"stdout","time":40281.812710819,"data":"ep  17 | loss 0.8918 (b 0.892 m 1.684 t 1.787 c 3.474) | word 0.8104 1-NED 0.9012 heavy 0.8243 | lr 7.77e-05 | 155s\r\n"}
+,{"stream_name":"stdout","time":40433.484130872,"data":"ep  18 | loss 0.8894 (b 0.889 m 1.683 t 1.788 c 3.474) | word nan 1-NED nan heavy nan | lr 6.70e-05 | 151s\r\n"}
+,{"stream_name":"stdout","time":40585.468101961,"data":"ep  19 | loss 0.8885 (b 0.888 m 1.683 t 1.788 c 3.475) | word nan 1-NED nan heavy nan | lr 5.66e-05 | 151s\r\n"}
+,{"stream_name":"stdout","time":40740.223046922,"data":"ep  20 | loss 0.8879 (b 0.888 m 1.682 t 1.790 c 3.476) | word 0.8168 1-NED 0.9048 heavy 0.8176 | lr 4.68e-05 | 154s\r\n"}
+,{"stream_name":"stdout","time":40741.127153222,"data":"  ** new best 0.8168\r\n"}
+,{"stream_name":"stdout","time":40892.727487496,"data":"ep  21 | loss 0.8864 (b 0.886 m 1.681 t 1.787 c 3.472) | word nan 1-NED nan heavy nan | lr 3.77e-05 | 152s\r\n"}
+,{"stream_name":"stdout","time":41044.719892911,"data":"ep  22 | loss 0.8860 (b 0.886 m 1.681 t 1.786 c 3.470) | word nan 1-NED nan heavy nan | lr 2.93e-05 | 151s\r\n"}
+,{"stream_name":"stdout","time":41199.947465085,"data":"ep  23 | loss 0.8854 (b 0.885 m 1.683 t 1.786 c 3.472) | word 0.8127 1-NED 0.9039 heavy 0.8243 | lr 2.18e-05 | 155s\r\n"}
+,{"stream_name":"stdout","time":41351.890340689,"data":"ep  24 | loss 0.8847 (b 0.885 m 1.682 t 1.786 c 3.472) | word nan 1-NED nan heavy nan | lr 1.53e-05 | 151s\r\n"}
+,{"stream_name":"stdout","time":41503.123156439,"data":"ep  25 | loss 0.8846 (b 0.885 m 1.683 t 1.787 c 3.473) | word nan 1-NED nan heavy nan | lr 9.90e-06 | 151s\r\n"}
+,{"stream_name":"stdout","time":41657.587462409,"data":"ep  26 | loss 0.8836 (b 0.884 m 1.683 t 1.787 c 3.473) | word 0.8156 1-NED 0.9047 heavy 0.8311 | lr 5.61e-06 | 154s\r\n"}
+,{"stream_name":"stdout","time":41809.402088165,"data":"ep  27 | loss 0.8835 (b 0.884 m 1.683 t 1.787 c 3.474) | word nan 1-NED nan heavy nan | lr 2.51e-06 | 151s\r\n"}
+,{"stream_name":"stdout","time":41961.26229371,"data":"ep  28 | loss 0.8836 (b 0.884 m 1.683 t 1.787 c 3.474) | word nan 1-NED nan heavy nan | lr 6.29e-07 | 151s\r\n"}
+,{"stream_name":"stdout","time":42116.224536923,"data":"ep  29 | loss 0.8833 (b 0.883 m 1.683 t 1.787 c 3.474) | word 0.8156 1-NED 0.9039 heavy 0.8311 | lr 0.00e+00 | 155s\r\n"}
+,{"stream_name":"stdout","time":42116.677085356,"data":"done. best val word acc = 0.8168\r\n"}
+,{"stream_name":"stdout","time":42121.259668189,"data":"/kaggle/working/run/viettdr/model.py:49: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\r\n"}
+,{"stream_name":"stdout","time":42121.259701447,"data":"  self.blocks = nn.TransformerEncoder(layer, depth)\r\n"}
+,{"stream_name":"stdout","time":42154.28448672,"data":"split=test  n=9789\r\n"}
+,{"stream_name":"stdout","time":42154.284523012,"data":"word acc          : 0.8194\r\n"}
+,{"stream_name":"stdout","time":42154.284528385,"data":"word acc (ci)     : 0.8300\r\n"}
+,{"stream_name":"stdout","time":42154.284545654,"data":"1 - NED           : 0.9093\r\n"}
+,{"stream_name":"stdout","time":42154.284550783,"data":"  co dau bat ky     : 0.8639  (n=6023)\r\n"}
+,{"stream_name":"stdout","time":42154.284555628,"data":"  \u003e=2 ky tu co dau  : 0.8573  (n=771)\r\n"}
+,{"stream_name":"stdout","time":42154.284561272,"data":"  chua hoi/nga      : 0.8394  (n=903)\r\n"}
+,{"stream_name":"stdout","time":42154.284565851,"data":"  co ky tu chong dau: 0.8539  (n=2320)\r\n"}
+,{"stream_name":"stdout","time":42154.284570183,"data":"tone confusion (rows=gt, cols=pred):\r\n"}
+,{"stream_name":"stdout","time":42154.284574439,"data":"         level   acute   grave    hook   tilde     dot\r\n"}
+,{"stream_name":"stdout","time":42154.284578717,"data":"  level  27393      36      31      27       6      23\r\n"}
+,{"stream_name":"stdout","time":42154.28458305,"data":"  acute     40    1283      15      25       7       4\r\n"}
+,{"stream_name":"stdout","time":42154.284591721,"data":"  grave     40      12    1150      28      10       3\r\n"}
+,{"stream_name":"stdout","time":42154.284595536,"data":"   hook     20      11      21     528       4       4\r\n"}
+,{"stream_name":"stdout","time":42154.284598507,"data":"  tilde      8       6       7       5     254       1\r\n"}
+,{"stream_name":"stdout","time":42154.284601432,"data":"    dot     33       3       5       0       2    1130\r\n"}
+,{"stream_name":"stdout","time":42154.321053808,"data":"report -\u003e runs/flat/eval_test.json  (9789 errors listed)\r\n"}
+,{"stream_name":"stdout","time":42155.298370273,"data":"### BO QUA no_toneprior: da chay 11.7h \u003e 10.0h\n"}
+,{"stream_name":"stdout","time":42155.298408918,"data":"### BO QUA no_comploss: da chay 11.7h \u003e 10.0h\n"}
+,{"stream_name":"stdout","time":42155.298415238,"data":"\n"}
+,{"stream_name":"stdout","time":42155.29842,"data":"xong ['full', 'flat'] | bo qua ['no_toneprior', 'no_comploss'] | tong 11.71h\n"}
+,{"stream_name":"stdout","time":42156.122799412,"data":"{\n"}
+,{"stream_name":"stdout","time":42156.12283303,"data":" \"full\": {\n"}
+,{"stream_name":"stdout","time":42156.122842176,"data":"  \"word_acc\": 0.8196,\n"}
+,{"stream_name":"stdout","time":42156.122844953,"data":"  \"one_minus_ned\": 0.9104,\n"}
+,{"stream_name":"stdout","time":42156.122847565,"data":"  \"any_diac_acc\": 0.8567,\n"}
+,{"stream_name":"stdout","time":42156.122850097,"data":"  \"multi_diac_acc\": 0.8508,\n"}
+,{"stream_name":"stdout","time":42156.122852592,"data":"  \"confusable_acc\": 0.8184,\n"}
+,{"stream_name":"stdout","time":42156.122855082,"data":"  \"stacked_acc\": 0.8526\n"}
+,{"stream_name":"stdout","time":42156.122857518,"data":" },\n"}
+,{"stream_name":"stdout","time":42156.122859894,"data":" \"flat\": {\n"}
+,{"stream_name":"stdout","time":42156.12286225,"data":"  \"word_acc\": 0.8194,\n"}
+,{"stream_name":"stdout","time":42156.122864658,"data":"  \"one_minus_ned\": 0.9093,\n"}
+,{"stream_name":"stdout","time":42156.122867088,"data":"  \"any_diac_acc\": 0.8639,\n"}
+,{"stream_name":"stdout","time":42156.122869434,"data":"  \"multi_diac_acc\": 0.8573,\n"}
+,{"stream_name":"stdout","time":42156.122871868,"data":"  \"confusable_acc\": 0.8394,\n"}
+,{"stream_name":"stdout","time":42156.122874248,"data":"  \"stacked_acc\": 0.8539\n"}
+,{"stream_name":"stdout","time":42156.122876659,"data":" }\n"}
+,{"stream_name":"stdout","time":42156.122878946,"data":"}\n"}
+,{"stream_name":"stdout","time":42164.036671625,"data":"\n"}
+,{"stream_name":"stdout","time":42164.036707218,"data":"XONG -\u003e /kaggle/working/results_v2.zip (145 MB)\n"}
+,{"stream_name":"stderr","time":42167.396406792,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":42167.396437327,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":42167.571791864,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":42167.571820204,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":42168.277762221,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":42168.614832853,"data":"[NbConvertApp] Writing 40435 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":42171.095856513,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":42172.027579894,"data":"[NbConvertApp] Writing 352411 bytes to __results__.html\n"}
+]
